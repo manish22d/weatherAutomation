@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="28627" started-at="2022-02-07T19:10:25 IST" finished-at="2022-02-07T19:10:53 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="28627" started-at="2022-02-07T19:10:25 IST" finished-at="2022-02-07T19:10:53 IST">
+      <class name="com.weather.tests.ComparatorTest">
+        <test-method status="PASS" signature="loadConfig()[pri:0, instance:com.weather.tests.ComparatorTest@3e57cd70]" name="loadConfig" is-config="true" duration-ms="12" started-at="2022-02-07T19:10:25 IST" finished-at="2022-02-07T19:10:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadConfig -->
+        <test-method status="PASS" signature="classSetup(org.testng.ITestContext)[pri:0, instance:com.weather.tests.ComparatorTest@3e57cd70]" name="classSetup" is-config="true" duration-ms="17311" started-at="2022-02-07T19:10:25 IST" finished-at="2022-02-07T19:10:42 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1775c4e7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classSetup -->
+        <test-method status="PASS" signature="compareCityTemp()[pri:0, instance:com.weather.tests.ComparatorTest@3e57cd70]" name="compareCityTemp" duration-ms="10258" started-at="2022-02-07T19:10:42 IST" finished-at="2022-02-07T19:10:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compareCityTemp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.weather.tests.ComparatorTest@3e57cd70]" name="tearDown" is-config="true" duration-ms="1000" started-at="2022-02-07T19:10:52 IST" finished-at="2022-02-07T19:10:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.weather.tests.ComparatorTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
